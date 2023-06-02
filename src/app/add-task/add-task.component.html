@@ -1,0 +1,10 @@
+<div>
+  <input type="text" [(ngModel)]="taskDescription" placeholder="Ingrese el nombre de la tarea">
+  <select [(ngModel)]="taskStatus">
+    <option value="completed">Completada</option>
+    <option value="uncompleted">No completada</option>
+  </select>
+  <button (click)="addTask()">Agregar Tarea</button>
+</div>
+
+

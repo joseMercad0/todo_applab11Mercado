@@ -1,0 +1,7 @@
+<div>
+  <select [(ngModel)]="selectedFilter" (change)="filterTasks()">
+    <option value="all">Todos</option>
+    <option value="completed">Completo</option>
+    <option value="uncompleted">Incompleto</option>
+  </select>
+</div>
